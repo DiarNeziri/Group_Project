@@ -1,0 +1,139 @@
+.navbar-brand {
+  font-family: Gasoek One, sans serif;
+}
+
+
+
+.cards img {
+  height: 100%;
+  width: 100%;
+}
+
+.add-to-cart-button {
+	 display: inline-block;
+      padding: 10px;
+      background-color: #ff6262 ; 
+      color: #fff; /* Text color */
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      position: relative;
+      margin-bottom: 5px;
+}
+
+/* Styles for the button */
+ 
+    .heart-button {
+      display: flex;
+      padding: 20px; /* Adjust padding for button size */
+      text-align: center;
+      background-color: #fff; /* Heart color */
+      color: #000000; /* Text color */
+      border: solid;
+
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      position: relative;
+      width: 15%;
+    
+    }
+
+    /* Styles for the heart icon */
+    .heart-button::before {
+      content: '\2665'; /* Unicode for a heart icon */
+      font-size: 40px;
+      position: absolute;
+      text-align: center;
+      top: -30%;    
+    }
+
+    .heart-button:hover {
+      border: solid;
+      border-color: black;
+      border-radius: 5px;
+      background-color: #f66262; /* Heart color */
+      color: #fff;
+    }
+
+
+
+ /* Styles for the card container */
+    .col {
+      position: relative;
+    }
+
+    /* Styles for the card */
+    .card {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Styles for the button container within the card body */
+    .card-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Styles for the "Add To Cart" button */
+    #AddToCart {
+      margin-top: auto; /* This pushes the button to the bottom */
+    }
+
+    /* Styles for the heart icon */
+    .heart-button {
+      margin-top: auto; /* This pushes the button to the bottom */
+    }
+
+
+.cards h1 {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+ .social-icons {
+            display: flex;
+            align-items: center;
+        }
+
+.social-icons a {
+  margin-right: 15px; /* Adjust the spacing between icons */
+  color: #333; /* Adjust the icon color */
+  text-decoration: none;
+}
+
+.social-icons img {
+  height: 50px;
+  width: 50px;
+}
+
+ .card-text {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3; /* Number of lines to show before truncating */
+            -webkit-box-orient: vertical;
+        }
+
+        .show-more-btn {
+            cursor: pointer;
+            color: blue;
+        }

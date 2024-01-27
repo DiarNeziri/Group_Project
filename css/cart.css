@@ -1,0 +1,55 @@
+body {
+    font-family: 'Gasoek One', sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 70px; /* Adjusted for the fixed-top navbar */
+}
+
+.navbar {
+    border-bottom: 1px solid #dee2e6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#header {
+	font-family: Abril Fatface;
+    text-align: center;
+    margin-top: 80px;
+    color: #343a40;
+}
+
+#cart-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.remove-from-cart-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.remove-from-cart-button:hover {
+    background-color: #bd2130;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    body {
+        padding-top: 120px;
+    }
+
+    #header {
+        margin-top: 30px;
+    }
+
+    #cart-container {
+        max-width: 100%;
+    }
+}	
+}
